@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.header-banner {
+    background-color: oklab(73.53699999999999% 0.06864 0.14916); /* Cor laranja do topo */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #e68a00;
+}
+
+.logo-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #d32f2f; /* Cor vermelha do texto Express */
+    letter-spacing: -2px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+.title {
+    color: #ff9800;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+input[type="text"], 
+input[type="tel"], 
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.question {
+    font-weight: bold;
+    color: #666;
+    margin-top: 20px;
+}
+
+.checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.btn-concluir {
+    width: 100%;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-concluir:hover {
+    background-color: #e65c00;
+}
